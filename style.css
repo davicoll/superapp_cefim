@@ -25,15 +25,24 @@ nav {
   flex-direction: row;
   align-items: center;
   height: 52px;
-  gap: 2%;
+  gap: 0.5%;
   margin-left: 10%;
   padding: 8px 0px;
   color: #ffffff;
   font-weight: 300;
   font-size: 14px;
 }
+.nav-logo {
+  margin-right: 20px;
+}
+.nav-container a {
+  height: 100%;
+  text-align: center;
+  height: 52px;
+  padding: 15px 10px 0px 10px;
+}
 
-.nav-container a:hover .nav-item {
+.nav-container a:hover {
   background-color: #00000025;
 }
 
@@ -171,6 +180,8 @@ h1 {
   padding: 0px;
 }
 
+/* EQUIPE MEMBERS */
+
 .lequipe-members {
   display: flex;
   flex-direction: row;
@@ -207,6 +218,8 @@ h1 {
   margin-right: 10px;
 }
 
+/* FORM */
+
 #form {
   background-color: #dd5555;
   color: #ffffff;
@@ -221,7 +234,7 @@ h1 {
 
 form {
   width: 60%;
-  display: flex;
+  display: grid;
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
@@ -262,9 +275,14 @@ input {
 .submit-btn {
   font-size: 16px;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 8px 10px;
   border-radius: 5px;
+  border-style: none;
+  margin-top: 10px;
   justify-self: flex-end;
-  margin-top: 20px;
-  font-family: FontAwesome, "Open sans";
+}
+
+.submit-btn i {
+  margin-right: 10px;
+  font-size: 20px;
 }
