@@ -6,3 +6,265 @@
   -webkit-box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
+  font-size: 1em;
+}
+
+/* NAV BAR */
+
+nav {
+  background-color: #dd5555;
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 52px;
+  gap: 2%;
+  margin-left: 10%;
+  padding: 8px 0px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.nav-container a:hover .nav-item {
+  background-color: #00000025;
+}
+
+/* HOME BANNER */
+
+.banner-container {
+  height: 658px;
+  position: relative;
+  z-index: 120;
+}
+.banner-img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.banner-img img {
+  height: 658px;
+  object-fit: cover;
+  width: 100%;
+}
+.banner-cont-txt {
+  position: absolute;
+  z-index: 0;
+  bottom: 50%;
+  margin-bottom: -110px;
+  left: 50%;
+  margin-left: -200px;
+  color: #ffffff;
+  text-align: center;
+  min-width: 400px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.banner-cont-txt h3 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.banner-buttons-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.banner-button {
+  height: 46px;
+  width: 112px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.banner-button i {
+  padding-right: 10px;
+}
+
+/* SERVICES */
+
+#services h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.services-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+.services-item {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.services-icon {
+  background-color: #dd5555;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+.services-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+.services-text h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+/* EQUIPE BANNER */
+
+.lequipe-banner {
+  position: relative;
+  z-index: 9;
+  max-height: 240px;
+  margin-top: 60px;
+}
+
+.lequipe-banner img {
+  position: relative;
+  z-index: 8;
+  height: 240px;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: 50% top;
+  z-index: 8;
+}
+.lequipe-banner h2 {
+  position: absolute;
+  top: 50%;
+  margin-top: -33px;
+  left: 50%;
+  margin-left: -473px;
+  font-size: 48px;
+  color: #ffffff;
+  z-index: 90;
+  padding: 0px;
+}
+
+.lequipe-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 20px 0px 70px 0px;
+}
+.lequipe-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.member-img {
+  height: 239px;
+  width: 239px;
+  border-radius: 50%;
+}
+.lequipe-member p {
+  font-size: 28px;
+}
+.lequipe-member a {
+  background-color: #dd5555;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.fa-envelope {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#form {
+  background-color: #dd5555;
+  color: #ffffff;
+  padding: 60px 0px;
+}
+#form h2 {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+label {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.form-user-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-set {
+  width: 48%;
+}
+#nom {
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 15px;
+}
+#email {
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 15px;
+}
+#message {
+  width: 100%;
+  padding: 10px 0px;
+  min-height: 110px;
+}
+input {
+  border-style: none;
+  border-radius: 2px;
+}
+.submit-btn {
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  justify-self: flex-end;
+  margin-top: 20px;
+  font-family: FontAwesome, "Open sans";
+}

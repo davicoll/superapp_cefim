@@ -5,7 +5,7 @@
     <meta name="SuperApp" content="L'application trop super qui fait tout!" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/33c34e3c3c.js"
       crossorigin="anonymous"
@@ -16,21 +16,29 @@
     <header>
       <nav>
         <div class="nav-container">
-          <a href="#"><div class="nav-logo"></div></a>
+          <a href="#"
+            ><img
+              src="/images/logo/Logo.png"
+              class="nav-logo"
+              alt="company logo"
+          /></a>
           <a href="#"><div class="nav-item">À Propos</div></a>
           <a href="#services"><div class="nav-item">Services</div></a>
           <a href="#lequipe"><div class="nav-item">L'Équipe</div></a>
-          <a href="#"><div class="nav-item">Contact</div></a>
+          <a href="#form"><div class="nav-item">Contact</div></a>
         </div>
       </nav>
       <div class="banner-container">
         <div class="banner-img">
-          <img src="" />
+          <img
+            src="images/about.jpg/about.jpg.png"
+            alt="front screen of a smartphone in the dark"
+          />
         </div>
         <div class="banner-content">
           <div class="banner-cont-txt">
             <h1>SUPER APP</h1>
-            <h3>l'application trop super</h3>
+            <h3>L'application trop super!</h3>
             <hr />
             <div class="banner-buttons-cont">
               <button class="banner-button">
@@ -53,7 +61,7 @@
         <div class="services-item">
           <div class="services-icon"><i class="fa-solid fa-utensils"></i></div>
           <div class="services-text">
-            <p>Mettre la table</p>
+            <h3>Mettre la table</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -64,7 +72,7 @@
         <div class="services-item">
           <div class="services-icon"><i class="fa-solid fa-bed"></i></div>
           <div class="services-text">
-            <p>Faire le lit</p>
+            <h3>Faire le lit</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -77,7 +85,7 @@
             <i class="fa-sharp fa-solid fa-fire-burner"></i>
           </div>
           <div class="services-text">
-            <p>Allumer le feu</p>
+            <h3>Allumer le feu</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -88,7 +96,7 @@
         <div class="services-item">
           <div class="services-icon"><i class="fa-solid fa-leaf"></i></div>
           <div class="services-text">
-            <p>Ramasser les fueilles</p>
+            <h3>Ramasser les fueilles</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -99,7 +107,7 @@
         <div class="services-item">
           <div class="services-icon"><i class="fa-solid fa-umbrella"></i></div>
           <div class="services-text">
-            <p>Protéger de la pluie</p>
+            <h3>Protéger de la pluie</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -112,7 +120,7 @@
             <i class="fa-sharp fa-solid fa-dollar-sign"></i>
           </div>
           <div class="services-text">
-            <p>Vider votre compte</p>
+            <h3>Vider votre compte</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur elit. Reprehendit
               provident nam officiis ex harum, dolor sit dicta mius fugit,
@@ -124,32 +132,52 @@
     </section>
     <section id="lequipe">
       <div class="lequipe-banner">
-        <h2>La super équipe à l’origine de SuperApp</h2>
+        <img
+          src="images/team.jpg/team.jpg.png"
+          alt="stormtrooper in landscape"
+        />
+        <h2>La super équipe à l'origine de SuperApp</h2>
       </div>
       <div class="lequipe-members">
-        <div>
-          <img class="mermber-img" src="" />
+        <div class="lequipe-member">
+          <img
+            class="member-img"
+            src="images/avaone.jpg/avaone.jpg.png"
+            alt="hypster man with a mustache"
+          />
           <p>Tex Talign</p>
           <a href="mailto:email@email.com"
             ><i class="fa-solid fa-envelope"></i>Lui écrire</a
           >
         </div>
-        <div>
-          <img class="mermber-img" src="" />
+        <div class="lequipe-member">
+          <img
+            class="member-img"
+            src="images/avatwo.jpg/avatwo.jpg.png"
+            alt="young long-haired woman"
+          />
           <p>Marge Inn</p>
           <a href="mailto:email@email.com"
             ><i class="fa-solid fa-envelope"></i>Lui écrire</a
           >
         </div>
-        <div>
-          <img class="mermber-img" src="" />
+        <div class="lequipe-member">
+          <img
+            class="member-img"
+            src="images/avathree.jpg/avathree.jpg.png"
+            alt="young emo hypster"
+          />
           <p>Isaac Newton</p>
           <a href="mailto:email@email.com"
             ><i class="fa-solid fa-envelope"></i>Lui écrire</a
           >
         </div>
-        <div>
-          <img class="mermber-img" src="" />
+        <div class="lequipe-member">
+          <img
+            class="member-img"
+            src="images/avafour.jpg/avafour.jpg.png"
+            alt="the cool guy in the office"
+          />
           <p>Ash Tehemel</p>
           <a href="mailto:email@email.com"
             ><i class="fa-solid fa-envelope"></i>Lui écrire</a
@@ -160,17 +188,19 @@
     <section id="form">
       <h2>ENVOYEZ-NOUS UN MESSAGE</h2>
       <form>
-        <label for="nom">Votre nom</label><br />
-        <input type="text" id="nom" name="nom" /><br />
-        <label for="email">Votre email</label><br />
-        <input type="email" id="email" name="email" /><br />
-        <label for="message">Votre message</label><br />
+        <div class="form-user-info">
+          <div class="form-set">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" />
+          </div>
+          <div class="form-set">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+        </div>
+        <label for="message">Votre message</label>
         <input type="text" id="message" name="message" /><br />
-        <input
-          type="submit"
-          class="fa-solid fa-paper-plane"
-          value="&#xf1d8 Envoyer"
-        />
+        <input type="submit" class="submit-btn" value="&#xf1d8;  Envoyer" />
       </form>
     </section>
   </body>
