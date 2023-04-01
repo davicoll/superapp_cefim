@@ -35,6 +35,11 @@ nav {
 .nav-logo {
   margin-right: 20px;
 }
+#toggle {
+  font-size: 21px;
+  display: none;
+}
+
 .nav-container a {
   height: 100%;
   text-align: center;
@@ -359,10 +364,39 @@ input {
     margin-bottom: -10px;
   }
 }
+@media screen and (min-width: 500px) {
+  #toggle-menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 500px) {
+  .nav-container {
+    justify-content: space-between;
+  }
   .nav-container a {
     display: none;
   }
+  #toggle {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #dd5555;
+    border: none;
+    color: #ffffff;
+  }
+  #toggle-menu {
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    margin: 0px;
+  }
+  #toggle-menu li {
+    padding-bottom: 10px;
+  }
+  #toggle-menu li:hover {
+    background-color: #a83f3f;
+  }
+
   h1 {
     font-size: 38px;
   }
